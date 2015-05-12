@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+	
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+ 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script type='text/javascript' src="js/toggler.js"> </script> 
+
+<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css">
+<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+ <link rel="stylesheet" href="css/animate.css">
+
+
+<style type="text/css">
+	
+
+	body{
+		background-image:url(images/hp.png);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+   		-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+	}
+	.btn{
+		text-align: center;
+		margin-top:370px;
+		margin-left:440px;
+	}
+	
+	#content img{
+    position:relative;
+    margin-top:0px;
+    width:100%;
+    
+}
+
+	#parallax { 
+    width: 100%; 
+    height: 100%; 
+    
+}
+
+#test {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+}
+
+.example{
+    
+    width:600px; 
+    top: 50px; 
+    left: 170px; 
+    margin:0 auto;
+}
+
+.example1{
+    margin:0 auto;
+    top: 300px; 
+    left: 0;
+}
+	.ui-icon-myicon:after {
+    background-image: url("images/icon.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+
+}
+
+.ui-icon-myicon {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.hidden {
+     display:none;
+}
+
+.ui-icon-myicon1:after {
+    background-image: url("images/iconhome-01.png");
+    /* Make your icon fit */
+    background-size: 21px 21px;
+
+}
+
+.ui-icon-myicon1 {
+    zoom:2;
+  -ms-transform: scale(2) !important; 
+  -webkit-transform: scale(2) !important; /* Chrome, Safari, Opera */
+  transform: scale(2) !important;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.ui-icon-myicon2:after {
+    background-image: url("images/iconsetting-01.png");
+    /* Make your icon fit */
+    background-size: 21px 21px;
+
+}
+
+.ui-icon-myicon2 {
+    zoom:2;
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.ui-icon-myicon3:after {
+    background-image: url("images/iconlightbulb-01.png");
+    /* Make your icon fit */
+    background-size: 21px 21px;
+
+}
+
+.ui-icon-myicon3 {
+    zoom:2;
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.col-md-offset-1{
+	margin-top: -55px;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+	<div class="ui-nodisc-icon">
+     <div id="parallax" >
+
+       <a href="#transitionExample" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-myicon" data-rel="popup"  onclick="toggler('myContent');" style=" margin-left: 15px; margin-top: 20px;">myicon</a>
+    
+     </div>
+
+     <div id="myContent" class='hidden'>
+
+      <div class="col-md-offset-1 col-md-1">
+        
+         <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-myicon1 ui-btn-inline animated fadeInLeft"  style="margin-top:2px; margin-left:10px;">
+     
+         <i class="fa fa-home" style="font-size:30px; vertical-align: middle;"></i>
+         </button>
+    
+      </div> 
+
+      <div class="col-md-offset-1 col-md-1">
+         <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-myicon2 ui-btn-inline animated fadeInLeft" style="margin-top:2px;">
+         
+         <i class="fa fa-cog" style="font-size:30px; vertical-align: middle;"></i>
+         </button>
+    
+      </div> 
+
+      <div class="col-md-offset-1 col-md-1">
+         <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-myicon3 ui-btn-inline animated fadeInLeft" style="margin-top:2px;">
+     
+         <i class="fa fa-lightbulb-o" style="font-size:30px; vertical-align: middle;"></i>
+         </button>
+    
+      </div> 
+     </div> 
+    </div>
+
+	
+	<a href="index.html" class="btn btn-primary btn-lg">Tap to start</button>
+
+
+
+
+
+	
+</body>
+</html>
